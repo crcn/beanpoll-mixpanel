@@ -1,0 +1,23 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name":"cbd make",
+			"cmd":["cbd","make","beanpoll-mixpanel"]
+		},
+		{
+			"name":"cbd start",
+			"cmd":["cbd","start","beanpoll-mixpanel"]
+		},
+		{
+			"name":"cbd make+start",
+			"cmd":["cbd","make+start","beanpoll-mixpanel"]
+		}
+	]
+}

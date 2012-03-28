@@ -7,9 +7,8 @@
     "url": "git://github.com/crcn/beanpoll-mixpanel.git"
   },
   "main": "./lib/index.js",
-  "engines": {
-    "node": "~0.6.12"
+  "dependencies": {
+    "mixpanel": "0.0.x"
   },
-  "dependencies": {},
   "devDependencies": {}
 }
